@@ -45,8 +45,8 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 5 </_UpLeft>
 						<_DownRight type="a">1180 444 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -77,13 +77,13 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 -170 </_UpLeft>
 						<_DownRight type="a">3058 929 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\Users\20191716\Desktop\4AT100_IBM_Prince\Project</_fullName>
+			<_fullName type="a">C:\Users\20191716\OneDrive - TU Eindhoven\Project 4AT100\IBM_4AT100_G8\Project</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
@@ -108,16 +108,6 @@
 				<idOrFolder type="a">folder</idOrFolder>
 			</favoritesItem>
 			
-
-	- tableMatrixRowAdditionHight = {
-		count=1;
-		{ - TableMatrixView
-			id=cc4f23f4-4df4-40d0-8917-9023bff364f5;
-			rowAdditionalHight=;;
-			rowAdditionalHightExt=;
-		}
-	}
-
 		</CGEMdiWorkspace>
 		
 	</RHAPSODY-MODEL>
