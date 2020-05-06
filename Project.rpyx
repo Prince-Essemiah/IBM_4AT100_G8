@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.1.2020::17:33:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.1.2020::17:33:54</_modifiedTime>
-			<_lastID type="a">6</_lastID>
+			<_modifiedTimeWeak type="a">3.31.2020::21:59:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.31.2020::23:29:36</_modifiedTime>
+			<_lastID type="a">5</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -104,7 +104,6 @@
 				<value>GUID ab285915-0966-4322-a029-ffac3e6ef3df</value>
 				<value>GUID 9417e0be-5f46-4e99-b69b-0463832b60f6</value>
 				<value>GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</value>
-				<value>GUID 45433e5a-abc9-446f-a619-5eb47fb63c25</value>
 				<value>GUID 0ec0a830-aee7-4de0-9f42-4efcf9528ddb</value>
 				<value>GUID 57a482fe-a51e-484e-b25f-1ca781e44f80</value>
 				<value>GUID 10dd06f8-9d7b-417f-8266-a2c7336969ca</value>
@@ -133,10 +132,6 @@
 		<ISubsystem type="e">
 			<fileName type="a">TUesla</fileName>
 			<_id type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">GithubTest</fileName>
-			<_id type="a">GUID 45433e5a-abc9-446f-a619-5eb47fb63c25</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID 0ec0a830-aee7-4de0-9f42-4efcf9528ddb</_id>

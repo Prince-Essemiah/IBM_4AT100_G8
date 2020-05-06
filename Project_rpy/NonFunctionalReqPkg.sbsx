@@ -11,10 +11,10 @@
 			<_id type="a">GUID 0b5d63f4-6f26-48e6-8a61-6abb1bc76075</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NonFunctionalReqPkg</_name>
-			<_modifiedTimeWeak type="a">5.1.2020::17:43:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.1.2020::17:43:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.1.2020::13:16:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::17:4:40</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">5.1.2020::17:43:12</weakCGTime>
+			<weakCGTime type="a">4.1.2020::13:16:32</weakCGTime>
 			<strongCGTime type="a">4.1.2020::13:16:32</strongCGTime>
 			<_defaultComposite type="s">GUID b7c0d6bc-03ab-40cc-b101-7bc463355942</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -29,8 +29,8 @@
 			<_id type="a">GUID ec7739b2-678e-4df4-a573-da0d68c33cb8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Non Functional Requirements</_name>
-			<_modifiedTimeWeak type="a">5.1.2020::17:43:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.1.2020::17:43:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.1.2020::0:6:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.1.2020::0:6:35</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<AggregatesList type="e">
 				<value>GUID 796a5c91-c2c1-4951-9d31-6a5fb7e1186d</value>
@@ -206,8 +206,8 @@
 			<_id type="a">GUID b642bcdb-6725-4fbc-8a8a-fbdbb325be6c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Battery SOC</_name>
-			<_modifiedTimeWeak type="a">5.1.2020::17:43:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.1.2020::17:43:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.1.2020::0:6:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.1.2020::0:6:27</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system shall detect the DCT\rquote s state of charge (SOC) of the battery.\par%0D
@@ -222,13 +222,13 @@
 			<_id type="a">GUID 614f2a68-9693-4149-aa7e-5e35caf69a1c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCT to charging port</_name>
-			<_modifiedTimeWeak type="a">5.1.2020::17:43:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.1.2020::17:43:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.30.2020::17:49:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.30.2020::17:49:31</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system shall send the DCT to its charging area (CA) as soon as it is decoupled, when the SOC is below a threshold.\par%0D
 }%0D
 </_body>
-			<reqID type="a">NF_Bat_1</reqID>
+			<reqID type="a">311</reqID>
 		</IRequirement>
 		<IDiagram type="e">
 			<_id type="a">GUID d2eb4e5b-d547-4736-93a1-0dddb2d4db79</_id>
