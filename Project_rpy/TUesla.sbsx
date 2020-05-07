@@ -11,10 +11,10 @@
 			<_id type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TUesla</_name>
-			<_modifiedTimeWeak type="a">5.7.2020::9:2:59</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.7.2020::9:16:33</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.6.2020::5:6:19</_modifiedTime>
 			<_lastID type="a">73</_lastID>
-			<weakCGTime type="a">5.7.2020::9:2:59</weakCGTime>
+			<weakCGTime type="a">5.7.2020::9:16:33</weakCGTime>
 			<strongCGTime type="a">5.5.2020::9:23:17</strongCGTime>
 			<_defaultComposite type="s">GUID e5a8e8af-941d-434b-a5d1-a058bcb719fd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25178,7 +25178,20 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCTPicksTrailerPB</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.5.2020::9:30:5</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Name:  DCT picks up trailer at certain PB%0D
+Primary Actors:  DCT%0D
+Secondary Actors:  DCLogisticEmployee%0D
+Goal:  DCT picks up trailer at certain PB and drives to assigned LD%0D
+Main Scenario:%0D
+1.  TU/esla signals a PB to the DCT%0D
+2.  DCT drives to assigned PB%0D
+3.  DCT couples trailer in that PB%0D
+4.  TU/esla signals LD the trailer has to be parked%0D
+5.  DCT drives to that LD</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:16:33</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
