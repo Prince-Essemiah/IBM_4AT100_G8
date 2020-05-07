@@ -11,10 +11,10 @@
 			<_id type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TUesla</_name>
-			<_modifiedTimeWeak type="a">5.7.2020::9:16:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:6:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.7.2020::9:23:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.7.2020::9:27:59</_modifiedTime>
 			<_lastID type="a">73</_lastID>
-			<weakCGTime type="a">5.7.2020::9:16:33</weakCGTime>
+			<weakCGTime type="a">5.7.2020::9:23:15</weakCGTime>
 			<strongCGTime type="a">5.5.2020::9:23:17</strongCGTime>
 			<_defaultComposite type="s">GUID e5a8e8af-941d-434b-a5d1-a058bcb719fd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -24992,7 +24992,31 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">TruckArrivesDC</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.5.2020::9:24:15</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Truck arrives at DC\par%0D
+Primary Actors: TruckDriver\par%0D
+Secondary Actors: Trailer, Truck\par%0D
+Goal: TruckDriver parks trailer in right PB\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. The TruckDriver arrives in the DC\par%0D
+2. TU/esla assigns PB based on availability\par%0D
+3. TU/esla gives the signal to DCBoard to display the PB number\par%0D
+4. The TruckDriver reads the PB number\par%0D
+5. The TruckDriver drives the truck to the assigned PB\par%0D
+6. The TruckDriver parks in the PB\par%0D
+7. The TruckDriver uncouples trailer in PB\par%0D
+8. The TruckDriver drives to and parks at the TPA\par%0D
+\par%0D
+Alternative Flow:\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 8.1 The TruckDriver leaves the DC\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:23:46</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -25349,7 +25373,28 @@ Main Scenario:%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCTReverseParkLD</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.5.2020::9:31:4</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Reverse Parking of the trailer\par%0D
+Primary Actors: DCT\par%0D
+Secondary Actors: DCLogisticEmployee\par%0D
+Goal: Reverse park the trailer into the assigned LD\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. DCT arrives at the assigned LD\par%0D
+2. TU/esla plans the reverse parking path to avoid obstacles\par%0D
+3. DCT reverse parks autonomously\par%0D
+4. DCT uncouples the trailer\par%0D
+5. TU/esla assigns DCT a new Task\par%0D
+\par%0D
+Alternative Flow:\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 5.1. TU/esla drives to charging pad based on SOC.\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:24:20</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -25513,25 +25558,25 @@ Main Scenario:%0D
 			<_name type="a">DCTParksTrailerPB</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: DCT returns the trailer to PB\par%0D
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang1033\f0\fs20 Name: DCT returns the trailer to PB\par%0D
 Primary Actors: DCT\par%0D
 Secondary Actors: DCLogisticEmployee\par%0D
 Goal: To couple the trailer and park at the assigned PB\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. DCT drives to the speci_c LD assigned by TU/esla\par%0D
+1. DCT drives to the specific LD assigned by TU/esla\par%0D
 2. DCT couples with the trailer\par%0D
-3. TU/esla speci_es the PB\par%0D
+3. TU/esla specifies the PB\par%0D
 4. DCT drives to the PB\par%0D
 5. DCT parks on the assigned PB\par%0D
 6. DCT uncouples with the trailer\par%0D
-\pard\ltrpar\sa200\sl276\slmult1 7. TU/esla assigns DCT a new task\lang1043\f1\par%0D
+\pard\sa200\sl276\slmult1 7. TU/esla assigns DCT a new task\lang1043\f1\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">5.7.2020::9:2:59</_modifiedTime>
+			<_modifiedTime type="a">5.7.2020::9:23:15</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -25763,7 +25808,23 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">TruckExitDC</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.5.2020::9:38:6</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Exit of Truck\par%0D
+Primary Actors: TruckDriver\par%0D
+Goal: Truck couples with trailer and leaves\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. TU/esla informs the TruckDriver the PB number where the trailer is parked\par%0D
+2. TruckDriver drives the Tractor to the assigned PB\par%0D
+3. Tractor couples with the trailer\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 4. Truck exits the DC\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:24:55</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -25883,7 +25944,29 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">LoadingCargo</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.5.2020::9:31:51</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Loading of Cargo in Trailer\par%0D
+Primary Actors: DCLoadingEmployee\par%0D
+Goal: To load the speci_c Goods into the trailer\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. Trailer is parked at the LD\par%0D
+2. Back door of the Trailer is opened\par%0D
+3. DCLoadingEmployee loads the trailer\par%0D
+4. Back door of the Trailer is closed\par%0D
+5. TU/esla senses this and gives the signal for the DCT to pick up the trailer\par%0D
+6. Trailer awaits to be picked up by DCT\par%0D
+\par%0D
+Alternative Flow:\par%0D
+3.1 DCLoadingEmployee unloads the trailer\par%0D
+\pard\ltrpar\sa200\sl276\slmult1\lang1043 3.2 Go to step 4\lang1033\f1\fs22\par%0D
+\pard\ltrpar\lang1043\f2\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:27:16</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -26000,7 +26083,39 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">SOC</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:1:40</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 CMMI10;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Checking SOC + action\par%0D
+Primary Actors: DCT\par%0D
+Secondary Actors: Battery\par%0D
+Goal: Charge battery if needed\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. Compare SOC with threshold\par%0D
+2. SOC \f1 &lt; \f0 threshold\par%0D
+3. DCT is not coupled to trailer\par%0D
+4. DCT drives to the charging station\par%0D
+5. DCT charges\par%0D
+6. Go to step 1\par%0D
+\par%0D
+Alternative Flow 1:\par%0D
+3.1 DCT is coupled to trailer and drives towards PB\par%0D
+3.2 DCT parks and uncouples trailer in PB\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 3.3 Go to step 4\par%0D
+\pard\ltrpar Alternative Flow 2: \par%0D
+3.1.1 DCT is coupled to trailer and drives towards LD\par%0D
+3.1.2 DCT reverse parks the trailer into LD and Uncouples(UC3)\par%0D
+3.1.3 Go to step 3.3\par%0D
+\par%0D
+Alternative Flow 3: \par%0D
+2.1 SOC \f1 &gt; \f0 threshold\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 2.2 Go to Step 1\par%0D
+\pard\ltrpar\lang1043\f2\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:24:36</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -26019,7 +26134,30 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">Path Planning</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:5:18</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Path planning\par%0D
+Primary Actors: DCT\par%0D
+Secondary Actors: Environment, Sensors\par%0D
+Goal: TU/esla plans path from current position to desired destination based on obstacles.\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. TU/esla gives signal for DCT to move from current position to goal\par%0D
+2. Path planner plans path\par%0D
+3. Controller engaged (DCT starts driving).\par%0D
+4. Obstacle detection\par%0D
+5. No obstacle detected\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 6. Reach desired destination\par%0D
+\pard\ltrpar Alternative Flow:\par%0D
+5.1 Obstacle detected\par%0D
+5.2 Re-plan path around obstacle\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 5.3 Go to 3\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:25:17</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -26038,7 +26176,32 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">ReverseParkingPlanning</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:5:42</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Reverse parking into LD\par%0D
+Primary Actors: DCT\par%0D
+Secondary Actors: Environment, sensors, DCLoadingEmployee\par%0D
+Goal: Reverse park into LD\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. DCT arrives at LD lined up to engaged reverse parking\par%0D
+2. TU/esla plans reverse path\par%0D
+3. DCT reverse parks into LD\par%0D
+4. No obstacle\par%0D
+5. TU/esla gives signal that trailer in speci_c LD can be unloaded/loaded\par%0D
+6. DCT awaits next job\par%0D
+\par%0D
+Alternative Flow:\par%0D
+4.1 Obstacle detected\par%0D
+4.2 TU/esla signals DCLoadingEmployee to clear speci_c LD\par%0D
+4.2 DCLoadingEployee clears the path around speci_c LD\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 4.4 Go to step 3\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:26:29</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -26057,7 +26220,23 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">DisengagingAutonomousMode</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:6:9</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Disengaging autonomous mode\par%0D
+Primary Actors: DCT, DCLogisticEmployee\par%0D
+Goal: Disengage autonomous mode (in case of maintenance)\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. DCLogisticEmployee requests to disengage autonomous mode\par%0D
+2. Autonomous mode is disengaged\par%0D
+3. DCLogisticEmployee requests to engage autonomous mode\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 4. Autonomous mode is engaged\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:26:47</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -26095,7 +26274,24 @@ Main Scenario:\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">StopCrash</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.6.2020::5:6:31</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs20 Name: Stop in case of crash\par%0D
+Primary Actors: DCT\par%0D
+Secondary Actors: DCLogisticEmployee, InertiaSensor\par%0D
+Goal: Disengage autonomous mode automatically in case of crash or severe malfunction\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. Crash of DCT is being noticed by InertiaSensor\par%0D
+2. Immediate stop of DCT\par%0D
+3. Disengage autonomous mode\par%0D
+\pard\ltrpar\sa200\sl276\slmult1 4. TU/esla signals DCLogisticEmployee about crash for maintenance\par%0D
+\pard\ltrpar\lang1043\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.7.2020::9:27:1</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
